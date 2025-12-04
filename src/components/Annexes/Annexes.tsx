@@ -61,6 +61,21 @@ export const Annexes = () => {
                   en un compañero invaluable".
                 </p>
               </div>
+              <div className="bg-white/70 backdrop-blur-md p-6 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                <div className="flex gap-4 mb-4">
+                  <div className="w-12 h-12 bg-linear-to-br from-[#ee9b57] to-[#ffcd37] rounded-full flex items-center justify-center text-white font-bold">
+                    LL
+                  </div>
+                  <div>
+                    <p className="font-semibold text-gray-900">Leily Llanos</p>
+                    <p className="text-sm text-gray-600">Compañera de Proyecto</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 italic leading-relaxed">
+                  "Magno es bueno trabajando en equipo, tienen iniciativa y nunca se detiene hasta lograr
+                  sus objetivos".
+                </p>
+              </div>
             </div>
           </div>
 
