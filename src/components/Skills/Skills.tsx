@@ -13,10 +13,10 @@ export const Skills = () => {
   }
 
   return (
-    <section id="skills" className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section id="skills" className="py-20 bg-linear-to-b from-gray-50 to-white">
       <div className="container mx-auto px-6">
         <h2 className="text-5xl font-bold text-center mb-4">
-          <span className="bg-gradient-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent">Competencias Blandas</span>
+          <span className="bg-linear-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent">Competencias Blandas</span>
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
           Habilidades interpersonales desarrolladas a lo largo de mi formación
@@ -25,8 +25,8 @@ export const Skills = () => {
         <div className="grid lg:grid-cols-2 gap-12 mb-12">
           {/* Reflexión */}
           <div className="bg-white/70 backdrop-blur-md p-8 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
-            <h3 className="text-3xl font-semibold mb-6 bg-gradient-to-r from-[#ef2b41] to-[#ee9b57] bg-clip-text text-transparent">Reflexión Personal</h3>
-            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-xl border-2 border-yellow-200">
+            <h3 className="text-3xl font-semibold mb-6 bg-linear-to-r from-[#ef2b41] to-[#ee9b57] bg-clip-text text-transparent">Reflexión Personal</h3>
+            <div className="bg-linear-to-br from-yellow-50 to-orange-50 p-6 rounded-xl border-2 border-yellow-200">
               <p className="text-gray-700 leading-relaxed">
                 Durante mi formación en Ingeniería Informática, he fortalecido mi capacidad de
                 trabajo en equipo mediante proyectos grupales, aprendiendo a comunicarme efectivamente
@@ -39,9 +39,9 @@ export const Skills = () => {
 
           {/* Ejemplo Práctico */}
           <div className="bg-white/70 backdrop-blur-md p-8 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
-            <h3 className="text-3xl font-semibold mb-6 bg-gradient-to-r from-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent">Ejemplo Práctico</h3>
-            <div className="bg-gradient-to-br from-red-50 to-orange-50 p-6 rounded-xl border-2 border-red-200">
-              <h4 className="font-semibold mb-3 text-lg bg-gradient-to-r from-[#ef2b41] to-[#ee9b57] bg-clip-text text-transparent">Caso: Proyecto de Base de Datos Distribuida</h4>
+            <h3 className="text-3xl font-semibold mb-6 bg-linear-to-r from-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent">Ejemplo Práctico</h3>
+            <div className="bg-linear-to-br from-red-50 to-orange-50 p-6 rounded-xl border-2 border-red-200">
+              <h4 className="font-semibold mb-3 text-lg bg-linear-to-r from-[#ef2b41] to-[#ee9b57] bg-clip-text text-transparent">Caso: Proyecto de Base de Datos Distribuida</h4>
               <p className="text-gray-700 leading-relaxed">
                 En el proyecto de base de datos del semestre anterior, asumí un rol de liderazgo
                 cuando el equipo enfrentaba dificultades de coordinación. Organicé reuniones de
@@ -62,7 +62,7 @@ export const Skills = () => {
                 key={skill}
                 className="bg-white p-6 rounded-xl text-center shadow-lg hover:-translate-y-2 transition-transform duration-300 group"
               >
-                <div className="w-12 h-12 bg-gradient-to-br from-[#ef2b41] to-[#ee9b57] rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 bg-linear-to-br from-[#ef2b41] to-[#ee9b57] rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <Icon className="text-white" size={24} />
                 </div>
                 <span className="font-medium text-gray-800">{skill}</span>

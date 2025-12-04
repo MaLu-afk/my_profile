@@ -35,7 +35,7 @@ export const Projects = () => {
     {
       id: 3,
       title: "Ecopure Harvest",
-      description: "Plataforma web completa para la gestión de estudiantes, cursos y calificaciones con dashboard interactivo y reportes en tiempo real.",
+      description: "Proyecto que consistió en el desarrollo de un prototipo para el monitoreo de cultivos de papa utilizando tecnologías de IoT.",
       technologies: ["Firebase", "React", "TypeScript", "Node.js", "PostgreSQL"],
       githubUrl: "https://github.com/example/project1",
       demoUrl: "https://demo.com/project1",
@@ -66,10 +66,10 @@ export const Projects = () => {
   }
 
   return (
-    <section id="projects" className="py-20 bg-gradient-to-b from-white to-gray-50">
+    <section id="projects" className="py-20 bg-linear-to-b from-white to-gray-50">
       <div className="container mx-auto px-6">
         <h2 className="text-5xl font-bold text-center mb-4">
-          <span className="bg-gradient-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent">Proyectos</span>
+          <span className="bg-linear-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent">Proyectos</span>
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
           Algunos proyectos que reflejan mis habilidades técnicas
@@ -78,7 +78,7 @@ export const Projects = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map(project => (
             <div key={project.id} className="group relative h-full">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#ef2b41] to-[#ffcd37] rounded-2xl blur opacity-0 group-hover:opacity-25 transition-opacity" />
+              <div className="absolute inset-0 bg-linear-to-br from-[#ef2b41] to-[#ffcd37] rounded-2xl blur opacity-0 group-hover:opacity-25 transition-opacity" />
 
               <div className="relative bg-white rounded-2xl overflow-hidden shadow-xl hover:-translate-y-2 transition-transform duration-300 h-full flex flex-col">
 
@@ -87,7 +87,7 @@ export const Projects = () => {
                   <img src={project.image} alt={project.title} className="object-cover w-full h-full" />
                 </div>
 
-                <div className="h-2 bg-gradient-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37]" />
+                <div className="h-2 bg-linear-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37]" />
 
                 {/* Contenido que crece para igualar alturas */}
                 <div className="p-6 flex flex-col flex-1">
@@ -108,7 +108,7 @@ export const Projects = () => {
                     <h4 className="font-medium mb-3 text-gray-700">Tecnologías:</h4>
                     <div className="flex flex-wrap gap-2">
                       {project.technologies.map(tech => (
-                        <span key={tech} className={`bg-gradient-to-r ${techColors[tech] || 'from-gray-100 to-gray-200 text-gray-800'} px-3 py-1 rounded-full text-sm font-medium`}>
+                        <span key={tech} className={`bg-linear-to-r ${techColors[tech] || 'from-gray-100 to-gray-200 text-gray-800'} px-3 py-1 rounded-full text-sm font-medium`}>
                           {tech}
                         </span>
                       ))}
@@ -138,7 +138,7 @@ export const Projects = () => {
                       className={`flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-lg shadow-lg
                       transition-transform duration-300
                       ${project.demoAvailable
-                          ? "bg-gradient-to-r from-[#ef2b41] to-[#ee9b57] text-white hover:scale-105"
+                          ? "bg-linear-to-r from-[#ef2b41] to-[#ee9b57] text-white hover:scale-105"
                           : "bg-gray-200 text-gray-500 cursor-not-allowed"
                         }`}
                     >

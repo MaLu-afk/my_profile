@@ -83,10 +83,10 @@ export const Professional = () => {
 
   return (
     <>
-      <section id="professional" className="py-20 bg-gradient-to-b from-gray-50 to-white">
+      <section id="professional" className="py-20 bg-linear-to-b from-gray-50 to-white">
         <div className="container mx-auto px-6">
           <h2 className="text-5xl font-bold text-center mb-4">
-            <span className="bg-gradient-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent">Desarrollo Profesional</span>
+            <span className="bg-linear-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent">Desarrollo Profesional</span>
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             Recursos y logros que demuestran mi crecimiento profesional
@@ -96,14 +96,14 @@ export const Professional = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             {/* CV */}
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#ef2b41] to-[#ee9b57] rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-[#ef2b41] to-[#ee9b57] rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity"></div>
               <div className="relative bg-white p-6 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300 h-full flex flex-col">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#ef2b41] to-[#ee9b57] rounded-xl flex items-center justify-center mb-4 mx-auto">
+                <div className="w-14 h-14 bg-linear-to-br from-[#ef2b41] to-[#ee9b57] rounded-xl flex items-center justify-center mb-4 mx-auto">
                   <FileText className="text-white" size={28} />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-center">Currículum Vitae</h3>
-                <p className="mb-4 text-gray-600 text-center text-sm flex-grow">CV actualizado en Ingeniería Informática</p>
-                <button className="w-full bg-gradient-to-r from-[#ef2b41] to-[#ee9b57] text-white px-4 py-2.5 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg text-sm">
+                <p className="mb-4 text-gray-600 text-center text-sm grow">CV actualizado en Ingeniería Informática</p>
+                <button className="w-full bg-linear-to-r from-[#ef2b41] to-[#ee9b57] text-white px-4 py-2.5 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg text-sm">
                   Descargar CV
                 </button>
               </div>
@@ -111,18 +111,18 @@ export const Professional = () => {
 
             {/* LinkedIn */}
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#0077b5] to-[#00a0dc] rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-[#0077b5] to-[#00a0dc] rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity"></div>
               <div className="relative bg-white p-6 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300 h-full flex flex-col">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#0077b5] to-[#00a0dc] rounded-xl flex items-center justify-center mb-4 mx-auto">
+                <div className="w-14 h-14 bg-linear-to-br from-[#0077b5] to-[#00a0dc] rounded-xl flex items-center justify-center mb-4 mx-auto">
                   <Linkedin className="text-white" size={28} />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-center">LinkedIn</h3>
-                <p className="mb-4 text-gray-600 text-center text-sm flex-grow">Perfil profesional optimizado</p>
+                <p className="mb-4 text-gray-600 text-center text-sm grow">Perfil profesional optimizado</p>
                 <a
                   href="https://www.linkedin.com/in/magno-luque-409a02329/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full text-center bg-gradient-to-r from-[#0077b5] to-[#00a0dc] text-white px-4 py-2.5 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg text-sm"
+                  className="block w-full text-center bg-linear-to-r from-[#0077b5] to-[#00a0dc] text-white px-4 py-2.5 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg text-sm"
                 >
                   Ver perfil →
                 </a>
@@ -131,18 +131,18 @@ export const Professional = () => {
 
             {/* GitHub */}
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#24292e] to-[#444d56] rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-[#24292e] to-[#444d56] rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity"></div>
               <div className="relative bg-white p-6 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300 h-full flex flex-col">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#24292e] to-[#444d56] rounded-xl flex items-center justify-center mb-4 mx-auto">
+                <div className="w-14 h-14 bg-linear-to-br from-[#24292e] to-[#444d56] rounded-xl flex items-center justify-center mb-4 mx-auto">
                   <Github className="text-white" size={28} />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-center">GitHub</h3>
-                <p className="mb-4 text-gray-600 text-center text-sm flex-grow">Repositorios y proyectos</p>
+                <p className="mb-4 text-gray-600 text-center text-sm grow">Repositorios y proyectos</p>
                 <a
                   href="https://github.com/Magno-Luque"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full text-center bg-gradient-to-r from-[#24292e] to-[#444d56] text-white px-4 py-2.5 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg text-sm"
+                  className="block w-full text-center bg-linear-to-r from-[#24292e] to-[#444d56] text-white px-4 py-2.5 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg text-sm"
                 >
                   Ver perfil →
                 </a>
@@ -151,18 +151,18 @@ export const Professional = () => {
 
             {/* Kaggle */}
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#20beff] to-[#1a8ccc] rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-[#20beff] to-[#1a8ccc] rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity"></div>
               <div className="relative bg-white p-6 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300 h-full flex flex-col">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#20beff] to-[#1a8ccc] rounded-xl flex items-center justify-center mb-4 mx-auto">
+                <div className="w-14 h-14 bg-linear-to-br from-[#20beff] to-[#1a8ccc] rounded-xl flex items-center justify-center mb-4 mx-auto">
                   <KaggleIcon size={28} className="text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-center">Kaggle</h3>
-                <p className="mb-4 text-gray-600 text-center text-sm flex-grow">Competencias y datasets</p>
+                <p className="mb-4 text-gray-600 text-center text-sm grow">Competencias y datasets</p>
                 <a
                   href="https://www.kaggle.com/liondbdb"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full text-center bg-gradient-to-r from-[#20beff] to-[#1a8ccc] text-white px-4 py-2.5 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg text-sm"
+                  className="block w-full text-center bg-linear-to-r from-[#20beff] to-[#1a8ccc] text-white px-4 py-2.5 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg text-sm"
                 >
                   Ver perfil →
                 </a>
@@ -172,9 +172,9 @@ export const Professional = () => {
 
           {/* Second Row: Certificaciones */}
           <div className="relative group">
-            <div className="absolute inset-0 bg-gradient-to-br from-[#ef2b41] to-[#ffcd37] rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity"></div>
+            <div className="absolute inset-0 bg-linear-to-br from-[#ef2b41] to-[#ffcd37] rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity"></div>
             <div className="relative bg-white p-8 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
-              <div className="w-16 h-16 bg-gradient-to-br from-[#ef2b41] to-[#ffcd37] rounded-2xl flex items-center justify-center mb-6 mx-auto">
+              <div className="w-16 h-16 bg-linear-to-br from-[#ef2b41] to-[#ffcd37] rounded-2xl flex items-center justify-center mb-6 mx-auto">
                 <Award className="text-white" size={32} />
               </div>
               <h3 className="text-2xl font-semibold mb-4 text-center">Certificaciones</h3>
@@ -184,7 +184,7 @@ export const Professional = () => {
                   <button
                     key={cert.id}
                     onClick={() => openCertificate(cert)}
-                    className="flex flex-col items-center gap-3 p-4 rounded-lg border-2 border-gray-200 hover:border-[#ef2b41] hover:bg-gradient-to-r hover:from-red-50 hover:to-orange-50 transition-all duration-300 group/cert"
+                    className="flex flex-col items-center gap-3 p-4 rounded-lg border-2 border-gray-200 hover:border-[#ef2b41] hover:bg-linear-to-r hover:from-red-50 hover:to-orange-50 transition-all duration-300 group/cert"
                   >
                     <img
                       src={cert.logo}
@@ -221,7 +221,7 @@ export const Professional = () => {
               <div className="flex items-center gap-3">
                 <button
                   onClick={() => downloadCertificate(selectedCertificate)}
-                  className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#ef2b41] to-[#ee9b57] text-white rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg"
+                  className="flex items-center gap-2 px-4 py-2 bg-linear-to-r from-[#ef2b41] to-[#ee9b57] text-white rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg"
                 >
                   <Download size={20} />
                   <span className="font-semibold">Descargar</span>

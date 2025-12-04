@@ -20,7 +20,7 @@ export const Header = () => {
           {/* Logo */}
           <a
             href="#home"
-            className="text-2xl font-bold bg-gradient-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent hover:scale-105 transition-transform duration-300"
+            className="text-2xl font-bold bg-linear-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent hover:scale-105 transition-transform duration-300"
           >
             MiPortafolio
           </a>
@@ -34,7 +34,7 @@ export const Header = () => {
                 className="relative text-gray-700 hover:text-gray-900 font-medium transition-colors group"
               >
                 {item.name}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-[#ef2b41] to-[#ffcd37] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-linear-to-r from-[#ef2b41] to-[#ffcd37] transition-all duration-300 group-hover:w-full"></span>
               </a>
             ))}
           </div>
@@ -61,7 +61,7 @@ export const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-gray-900 font-medium transition-colors py-2 px-4 rounded-lg hover:bg-gradient-to-r hover:from-yellow-50 hover:to-orange-50"
+                  className="text-gray-700 hover:text-gray-900 font-medium transition-colors py-2 px-4 rounded-lg hover:bg-linear-to-r hover:from-yellow-50 hover:to-orange-50"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
