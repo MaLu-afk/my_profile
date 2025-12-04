@@ -41,13 +41,14 @@ export const Skills = () => {
           <div className="bg-white/70 backdrop-blur-md p-8 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
             <h3 className="text-3xl font-semibold mb-6 bg-linear-to-r from-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent">Ejemplo Práctico</h3>
             <div className="bg-linear-to-br from-red-50 to-orange-50 p-6 rounded-xl border-2 border-red-200">
-              <h4 className="font-semibold mb-3 text-lg bg-linear-to-r from-[#ef2b41] to-[#ee9b57] bg-clip-text text-transparent">Caso: Proyecto de Base de Datos Distribuida</h4>
+              <h4 className="font-semibold mb-3 text-lg bg-linear-to-r from-[#ef2b41] to-[#ee9b57] bg-clip-text text-transparent">Caso: Proyecto del Curso de Implementación de Lenguajes de Programación</h4>
               <p className="text-gray-700 leading-relaxed">
-                En el proyecto de base de datos del semestre anterior, asumí un rol de liderazgo
-                cuando el equipo enfrentaba dificultades de coordinación. Organicé reuniones de
-                seguimiento semanales, establecí metas claras y distribuí tareas según las fortalezas
-                de cada miembro. Esta experiencia resultó en la entrega exitosa del proyecto con una
-                calificación sobresaliente y fortaleció mis habilidades de liderazgo y comunicación.
+                En el proyecto, que consistía en crear un lenguaje orientado a la generación de notas y 
+                sonidos musicales del semestre anterior, asumí un rol de liderazgo cuando el equipo 
+                enfrentaba dificultades de coordinación. Organicé reuniones, establecí metas claras y 
+                distribuí tareas según las fortalezas de cada miembro. Esta experiencia resultó en la 
+                entrega exitosa del proyecto, con una calificación sobresaliente, y fortaleció mis 
+                habilidades de liderazgo y comunicación.
               </p>
             </div>
           </div>

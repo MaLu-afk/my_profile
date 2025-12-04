@@ -59,21 +59,21 @@ export const Footer = () => {
             <h3 className="text-2xl font-bold mb-4 bg-linear-to-r from-[#ef2b41] via-[#ee9b57] to-[#ffcd37] bg-clip-text text-transparent">Conectemos</h3>
             <div className="flex space-x-4">
               <a
-                href="[tu-linkedin]"
+                href="https://www.linkedin.com/in/magno-luque-409a02329/"
                 className="w-12 h-12 bg-linear-to-br from-[#ef2b41] to-[#ee9b57] rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300 shadow-lg"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} className="text-white" />
               </a>
               <a
-                href="[tu-github]"
+                href="https://github.com/Magno-Luque"
                 className="w-12 h-12 bg-linear-to-br from-[#ee9b57] to-[#ffcd37] rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300 shadow-lg"
                 aria-label="GitHub"
               >
                 <Github size={24} className="text-white" />
               </a>
               <a
-                href="mailto:magno.luque@universidad.edu"
+                href="mailto:magno.luque@upch.pe"
                 className="w-12 h-12 bg-linear-to-br from-[#ef2b41] to-[#ffcd37] rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300 shadow-lg"
                 aria-label="Email"
               >

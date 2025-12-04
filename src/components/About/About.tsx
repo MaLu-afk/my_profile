@@ -37,7 +37,7 @@ export const About = () => {
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h5 className="font-semibold text-gray-700 mb-2">Corto Plazo (2025-2026)</h5>
+                  <h5 className="font-semibold text-gray-700 mb-2">Corto Plazo (2025-2027)</h5>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <span className="text-[#ef2b41] font-bold">→</span>

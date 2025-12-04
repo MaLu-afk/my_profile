@@ -7,6 +7,8 @@ import awsCloudSemester1 from '../../assets/certificate/AWS_Academy_Introduction
 import awsCloudSemester2 from '../../assets/certificate/AWS_Academy_Introduction_to_Cloud_Semester_2.pdf';
 import oracleFoundations from '../../assets/certificate/Oracle_Foudations.pdf';
 
+import cv from '../../assets/cv/CV-Magno_Luque.pdf';
+
 // Import logos
 import awsLogo from '../../assets/logos/AWS.png';
 import oracleLogo from '../../assets/logos/Oracle.png';
@@ -81,6 +83,14 @@ export const Professional = () => {
     link.click();
   };
 
+  // Función para descargar el CV - igual que en Professional
+  const descargarCV = () => {
+    const link = document.createElement('a');
+    link.href = cv;
+    link.download = 'Magno-Luque-CV.pdf'; // Nombre que tendrá al descargarse
+    link.click();
+  };
+
   return (
     <>
       <section id="professional" className="py-20 bg-linear-to-b from-gray-50 to-white">
@@ -103,8 +113,11 @@ export const Professional = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-center">Currículum Vitae</h3>
                 <p className="mb-4 text-gray-600 text-center text-sm grow">CV actualizado en Ingeniería Informática</p>
-                <button className="w-full bg-linear-to-r from-[#ef2b41] to-[#ee9b57] text-white px-4 py-2.5 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg text-sm">
-                  Descargar CV
+                <button 
+                  onClick={descargarCV}
+                  className="w-full bg-linear-to-r from-[#ef2b41] to-[#ee9b57] text-white px-4 py-2.5 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg text-sm"
+                >
+                  Descargar CV 
                 </button>
               </div>
             </div>
