@@ -1,7 +1,8 @@
 import { Github, ExternalLink } from 'lucide-react'
 import project1 from '../../assets/project/vision-text.png'
 import project2 from '../../assets/project/e-commerce.jpg'
-import project3 from '../../assets/project/ecopure_harvest.png'
+import project3 from '../../assets/project/kavas-lunch.jpg'
+import project4 from '../../assets/project/ecopure_harvest.png'
 
 import type { Project } from "../../types/portfolio"
 import { ProjectType } from "../../types/portfolio"
@@ -13,7 +14,7 @@ export const Projects = () => {
       title: "Búsqueda de imágenes con texto e imágenes",
       description: "Plataforma web para la búsqueda de imágenes con texto e imágenes.",
       technologies: ["FastApi", "React", "TypeScript", "PyTorch", "TensorFlow", "PostgreSQL"],
-      githubUrl: "https://github.com/example/project1",
+      githubUrl: "https://github.com/MaLu-afk/VisionText-frontend.git",
       demoUrl: "https://demo.com/project1",
       demoAvailable: false,
       projectType: ProjectType.ACADEMIC,
@@ -34,15 +35,27 @@ export const Projects = () => {
     },
     {
       id: 3,
-      title: "Ecopure Harvest",
-      description: "Proyecto que consistió en el desarrollo de un prototipo para el monitoreo de cultivos de papa utilizando tecnologías de IoT.",
-      technologies: ["Firebase", "React", "TypeScript", "Node.js", "PostgreSQL"],
-      githubUrl: "https://github.com/example/project1",
+      title: "Kavas-Lunch",
+      description: "Proyecto que consistió en el desarrollo de un sistema web de reserva de menú de un comedor universitario.",
+      technologies: ["React", "TypeScript", "PostgreSQL"],
+      githubUrl: "https://github.com/Proyecto-GP/frontend-react",
       demoUrl: "https://demo.com/project1",
       demoAvailable: false,
       projectType: ProjectType.ACADEMIC,
       dateRange: "Agosto 2024 – Febrero 2025",
       image: project3,
+    },
+    {
+      id: 4,
+      title: "Ecopure Harvest",
+      description: "Proyecto que consistió en el desarrollo de un prototipo para el monitoreo de cultivos de papa utilizando tecnologías de IoT.",
+      technologies: ["Firebase", "React", "TypeScript", "Node.js", "PostgreSQL"],
+      githubUrl: "https://github.com/Magno-Luque/PI1",
+      demoUrl: "https://demo.com/project1",
+      demoAvailable: false,
+      projectType: ProjectType.ACADEMIC,
+      dateRange: "Agosto 2024 – Febrero 2025",
+      image: project4,
     },
   ]
 
