@@ -35,11 +35,30 @@ export const Annexes = () => {
                   </div>
                 </div>
                 <p className="text-gray-700 italic leading-relaxed">
-                  "Trabajar con Magno ha sido una experiencia excelente. Destaca por su capacidad 
-                    para resolver problemas con rapidez, su compromiso con la calidad y su habilidad 
-                    para trabajar en equipo. Siempre aporta ideas claras y bien fundamentadas y demuestra 
-                    un alto nivel de responsabilidad en cada proyecto. Sin duda, es un profesional en quien 
-                    se puede confiar".
+                  "Trabajar con Magno ha sido una experiencia excelente. Destaca por su capacidad
+                  para resolver problemas con rapidez, su compromiso con la calidad y su habilidad
+                  para trabajar en equipo. Siempre aporta ideas claras y bien fundamentadas y demuestra
+                  un alto nivel de responsabilidad en cada proyecto. Sin duda, es un profesional en quien
+                  se puede confiar".
+                </p>
+              </div>
+
+              <div className="bg-white/70 backdrop-blur-md p-6 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                <div className="flex gap-4 mb-4">
+                  <div className="w-12 h-12 bg-linear-to-br from-[#ee9b57] to-[#ffcd37] rounded-full flex items-center justify-center text-white font-bold">
+                    EA
+                  </div>
+                  <div>
+                    <p className="font-semibold text-gray-900">Edithson Aybar</p>
+                    <p className="text-sm text-gray-600">Compañero de Proyecto</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 italic leading-relaxed">
+                  "Quiero reconocer a Magno por su dedicación ejemplar. Es un compañero muy aplicado,
+                  siempre dispuesto a aprender y a dar más de lo esperado. En los trabajos grupales,
+                  su apoyo constante marca una gran diferencia, aporta ideas, organiza cuando es requerido
+                  y nunca duda en ayudar a quien lo necesite. Su compromiso y responsabilidad lo convierten
+                  en un compañero invaluable".
                 </p>
               </div>
             </div>

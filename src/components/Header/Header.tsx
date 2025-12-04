@@ -9,7 +9,8 @@ export const Header = () => {
     { name: 'Acerca de Mí', href: '#about' },
     { name: 'Desarrollo Profesional', href: '#professional' },
     { name: 'Proyectos', href: '#projects' },
-    { name: 'Competencias', href: '#skills' },
+    { name: 'Habilidades Técnicas', href: '#technical-skills' },
+    { name: 'Competencias Blandas', href: '#skills' },
     { name: 'Anexos', href: '#annexes' },
   ];
 

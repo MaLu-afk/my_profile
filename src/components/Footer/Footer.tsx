@@ -47,6 +47,10 @@ export const Footer = () => {
                 <span className="w-1.5 h-1.5 bg-linear-to-r from-[#ef2b41] to-[#ee9b57] rounded-full group-hover:scale-150 transition-transform"></span>
                 Desarrollo Prof.
               </a>
+              <a href="#technical-skills" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2 group">
+                <span className="w-1.5 h-1.5 bg-linear-to-r from-[#ef2b41] to-[#ee9b57] rounded-full group-hover:scale-150 transition-transform"></span>
+                Habilidades Téc.
+              </a>
               <a href="#skills" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-linear-to-r from-[#ef2b41] to-[#ee9b57] rounded-full group-hover:scale-150 transition-transform"></span>
                 Competencias
